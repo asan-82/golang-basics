@@ -39,9 +39,9 @@ func main() {
 }
 ```
 - 🔎 Why?
- - Only package main is treated as a runnable program
- - All other package names (like xyz, utils, maths, etc.) are treated as library/utility packages
- - They are intended to be imported into other programs, not executed directly
+  - Only package main is treated as a runnable program
+  - All other package names (like xyz, utils, maths, etc.) are treated as library/utility packages
+  - They are intended to be imported into other programs, not executed directly
 
 
 - Go **does not allow you to access a function from another package unless it is exported.
@@ -75,11 +75,11 @@ func main() {
 - That file must contain a func main(). Filename may or may not be main.go
 
 - COMMAND USED TO RUN A FILE:
- - go run fileWhichHas_main_packageAndFunction.go
+   - go run fileWhichHas_main_packageAndFunction.go
 
 - COMMAND For running multiple files
- - go run fileWhichHas_main_packageAndFunction.go xyz.go
+   - go run fileWhichHas_main_packageAndFunction.go xyz.go
 
 - COMMAND For running all the files in the same directory:
- - go run . 
+  - go run . 
 
